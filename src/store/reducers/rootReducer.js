@@ -14,7 +14,7 @@ const commonConfig = {
 const musicConfig = {
     ...commonConfig,
     key: 'music',
-    whitelist: ['curSongId']
+    whitelist: ['curSongId', 'curSongData', 'curAlbumId', 'recentSongs']
 }
 
 // để nhóm các reducer vào lại với nhau
